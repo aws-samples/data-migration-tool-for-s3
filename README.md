@@ -10,15 +10,14 @@ Example of S3 upload:
      
 Example of S3 download：
 
-    admt -f 30  s3://bucket1/prefix1 ./localdir 
+     admt -f 30  s3://bucket1/prefix1 ./localdir 
     
 Example of directory copy:
 
-   admt -f 30 ./localdir1 ./localdir2 
+     admt -f 30 ./localdir1 ./localdir2 
    
 Example of bueckt/prefix sync:
-
-  admt -f 30  s3://bucket1/prefix1 s3://bucket2/prefix2
+     admt -f 30  s3://bucket1/prefix1 s3://bucket2/prefix2
 
 
 ## Security
